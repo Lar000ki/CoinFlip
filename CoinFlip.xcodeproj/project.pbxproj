@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4D86CCE2B5F148100BF7098 /* coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = C4D86CCD2B5F148100BF7098 /* coin.scn */; };
 		C4ED852A2B59BCFB00B24B55 /* InstrumentusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED85292B59BCFB00B24B55 /* InstrumentusApp.swift */; };
 		C4ED852C2B59BCFB00B24B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED852B2B59BCFB00B24B55 /* ContentView.swift */; };
 		C4ED852E2B59BCFC00B24B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ED852D2B59BCFC00B24B55 /* Assets.xcassets */; };
 		C4ED85312B59BCFC00B24B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ED85302B59BCFC00B24B55 /* Preview Assets.xcassets */; };
-		C4ED853B2B59BCFC00B24B55 /* InstrumentusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED853A2B59BCFC00B24B55 /* InstrumentusTests.swift */; };
-		C4ED85452B59BCFC00B24B55 /* InstrumentusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED85442B59BCFC00B24B55 /* InstrumentusUITests.swift */; };
-		C4ED85472B59BCFC00B24B55 /* InstrumentusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED85462B59BCFC00B24B55 /* InstrumentusUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4ED85262B59BCFB00B24B55 /* Instrumentus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instrumentus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D86CCD2B5F148100BF7098 /* coin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = coin.scn; sourceTree = "<group>"; };
+		C4ED85262B59BCFB00B24B55 /* Coin Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED85292B59BCFB00B24B55 /* InstrumentusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentusApp.swift; sourceTree = "<group>"; };
 		C4ED852B2B59BCFB00B24B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4ED852D2B59BCFC00B24B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4ED85302B59BCFC00B24B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4ED85362B59BCFC00B24B55 /* InstrumentusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ED853A2B59BCFC00B24B55 /* InstrumentusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentusTests.swift; sourceTree = "<group>"; };
 		C4ED85402B59BCFC00B24B55 /* InstrumentusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ED85442B59BCFC00B24B55 /* InstrumentusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentusUITests.swift; sourceTree = "<group>"; };
-		C4ED85462B59BCFC00B24B55 /* InstrumentusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				C4ED85282B59BCFB00B24B55 /* Instrumentus */,
-				C4ED85392B59BCFC00B24B55 /* InstrumentusTests */,
-				C4ED85432B59BCFC00B24B55 /* InstrumentusUITests */,
 				C4ED85272B59BCFB00B24B55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +78,7 @@
 		C4ED85272B59BCFB00B24B55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4ED85262B59BCFB00B24B55 /* Instrumentus.app */,
+				C4ED85262B59BCFB00B24B55 /* Coin Flip.app */,
 				C4ED85362B59BCFC00B24B55 /* InstrumentusTests.xctest */,
 				C4ED85402B59BCFC00B24B55 /* InstrumentusUITests.xctest */,
 			);
@@ -94,6 +88,7 @@
 		C4ED85282B59BCFB00B24B55 /* Instrumentus */ = {
 			isa = PBXGroup;
 			children = (
+				C4D86CCD2B5F148100BF7098 /* coin.scn */,
 				C4ED85292B59BCFB00B24B55 /* InstrumentusApp.swift */,
 				C4ED852B2B59BCFB00B24B55 /* ContentView.swift */,
 				C4ED852D2B59BCFC00B24B55 /* Assets.xcassets */,
@@ -108,23 +103,6 @@
 				C4ED85302B59BCFC00B24B55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C4ED85392B59BCFC00B24B55 /* InstrumentusTests */ = {
-			isa = PBXGroup;
-			children = (
-				C4ED853A2B59BCFC00B24B55 /* InstrumentusTests.swift */,
-			);
-			path = InstrumentusTests;
-			sourceTree = "<group>";
-		};
-		C4ED85432B59BCFC00B24B55 /* InstrumentusUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C4ED85442B59BCFC00B24B55 /* InstrumentusUITests.swift */,
-				C4ED85462B59BCFC00B24B55 /* InstrumentusUITestsLaunchTests.swift */,
-			);
-			path = InstrumentusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +122,7 @@
 			);
 			name = Instrumentus;
 			productName = Instrumentus;
-			productReference = C4ED85262B59BCFB00B24B55 /* Instrumentus.app */;
+			productReference = C4ED85262B59BCFB00B24B55 /* Coin Flip.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4ED85352B59BCFC00B24B55 /* InstrumentusTests */ = {
@@ -206,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4ED85212B59BCFB00B24B55 /* Build configuration list for PBXProject "Instrumentus" */;
+			buildConfigurationList = C4ED85212B59BCFB00B24B55 /* Build configuration list for PBXProject "CoinFlip" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,6 +211,7 @@
 			files = (
 				C4ED85312B59BCFC00B24B55 /* Preview Assets.xcassets in Resources */,
 				C4ED852E2B59BCFC00B24B55 /* Assets.xcassets in Resources */,
+				C4D86CCE2B5F148100BF7098 /* coin.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ED853B2B59BCFC00B24B55 /* InstrumentusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4ED85452B59BCFC00B24B55 /* InstrumentusUITests.swift in Sources */,
-				C4ED85472B59BCFC00B24B55 /* InstrumentusUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +328,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Coin Flip";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -408,6 +385,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Coin Flip";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -422,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instrumentus/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G3W7Y4QU3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,8 +413,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bob.Instrumentus;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bob.CoinFlip;
+				PRODUCT_NAME = "Coin Flip";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instrumentus/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G3W7Y4QU3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,8 +442,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bob.Instrumentus;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bob.CoinFlip;
+				PRODUCT_NAME = "Coin Flip";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -545,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4ED85212B59BCFB00B24B55 /* Build configuration list for PBXProject "Instrumentus" */ = {
+		C4ED85212B59BCFB00B24B55 /* Build configuration list for PBXProject "CoinFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4ED85482B59BCFC00B24B55 /* Debug */,
